@@ -35,7 +35,7 @@ class _MyAppState extends State<MyApp> {
                    Container(
                       //color: Colors.green,
                       padding:EdgeInsets.symmetric(horizontal: 0,vertical: 270),
-                    child: Text('${_total}',style: _estiloTexto),
+                    child: Text('Total:\$$_total',style: _estiloTexto),
 
                    )
                  ],
