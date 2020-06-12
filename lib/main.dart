@@ -71,7 +71,8 @@ class _MyAppState extends State<MyApp> {
   Widget _crearCuenta(){
     
     return TextField(
-      decoration: InputDecoration(hintText:"total de la cuenta" ),
+      
+      decoration: InputDecoration(hintText:"total de la cuenta" ,contentPadding: EdgeInsets.all(10)),
       keyboardType: TextInputType.number,
       onChanged: (String value){
         try{
@@ -88,7 +89,7 @@ class _MyAppState extends State<MyApp> {
 
 Widget _crearPorcentaje(){
   return TextField(
-      decoration: InputDecoration(labelText: "tip %", hintText:"15" ),
+      decoration: InputDecoration(labelText: "tip %", hintText:"15",contentPadding: EdgeInsets.all(10)),
       keyboardType: TextInputType.number,
       onChanged: (String value){
         try{
